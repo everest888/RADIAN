@@ -1,0 +1,114 @@
+@media (max-width: 1350px) {
+    header {
+        width: auto;
+    }
+    .wrapper {
+        width: auto;
+    }
+
+    footer {
+        height: auto;
+    }
+    .header .wrapper nav{margin: 0;}
+    .header .wrapper .nav_bar {
+        justify-content: flex-start;
+    }
+    .header .wrapper .nav_bar #let {margin: 0;}
+    footer .wrapper .ft .ft1 {
+        margin: 50px 0 0 0px;
+
+
+}
+
+@media (max-width: 1050px) {
+    .cards {
+        justify-content: center;
+        display: flex;        
+    }
+    .card-content {
+        display: flex;
+    }
+    .card {
+        display: block;
+        width: 340px;
+        height: 320px;
+        padding: 37px;
+    }
+
+    .wrapper {
+        width: 95%;
+    }
+    .footer-text {
+        margin: 0;
+    }
+    .header .wrapper .nav_bar {
+        justify-content: center;
+    }
+    main .wrapper .cards .card {
+        margin: 5px;
+    }
+    .container{height: auto;}
+    .header .wrapper .header-btn {
+        text-align:center;
+    }
+    
+}
+
+@media (max-width: 780px) {
+    .header .wrapper h2 {
+        margin-top: 0;
+    }
+    .header #ZANE {
+        margin-top: 40px;
+    }
+    main .wrapper #wrp {
+        padding: 7px 95px;
+    }
+    footer #logo4 {
+        width: 400px;
+    }
+}
+
+@media (max-width: 415px) {
+    main .wrapper #btn-2 {
+        margin-top: 10px;
+    }
+    main .wrapper #wrp {padding: 0;}
+    .header .wrapper .nav_bar {
+        direction: rtl;
+        display: flex;
+        justify-content: center;
+        text-align: end;
+    }
+    .header .wrapper nav,.contacts {
+        display: none;
+    }
+    .header .wrapper .header-btn {
+        text-align: center;
+    }
+    main .wrapper .section-2 {
+        padding: 17px 5px 5px 5px;}
+        #logo4 {
+            width: 300px;
+        }
+    footer .wrapper .ft .ft1 {margin: 0;}
+    .logo-3 {
+        width: 280px;
+    }
+    .Doslendo{margin: 0;}
+    h4 {
+        font-size: 18px;
+    }
+    main .wrapper .cards .card {
+        display: block;
+        width: 300px;
+        height: auto;
+        padding: 5px;
+    }
+    main .wrapper .cards .card .card-content img{
+        margin: 0;
+    }
+    footer #logo4 {
+        width: 280px;
+    }
+}
