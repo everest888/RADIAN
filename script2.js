@@ -1,6 +1,6 @@
 'use strict'; 
 
-window.onload = function () {
+/*window.onload = function () {
     if ($(document).width() <= 415)
 
     
@@ -21,4 +21,4 @@ window.onload = function () {
         $('#closebtn').css('display', 'none');
         $('.logo').css('display', 'block');
     });
-}
+}*/
